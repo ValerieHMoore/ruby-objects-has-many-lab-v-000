@@ -28,7 +28,7 @@ class Author
   end
   
   def self.post_count
-   
+   #calculate the posts of all the authors
   end
   
  end
