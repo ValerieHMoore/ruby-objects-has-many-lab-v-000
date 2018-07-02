@@ -23,6 +23,7 @@ class Author
   #       expect(betty.posts.last.title).to eq("My Great Blog Post")
   #       expect(betty.posts.last.author).to eq(betty)
     posts.title.author = self
+    @@all << self
   end
   
  end
