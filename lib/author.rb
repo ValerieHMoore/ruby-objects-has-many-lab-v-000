@@ -13,9 +13,9 @@ class Author
     name.author = self
   end
  
-  # def posts
-  #   @@all
-  # end
+  def posts
+    @@all
+  end
   
   def add_post_by_title(title)
   # it "takes in an argument of a post title, creates a new post with it and associates the post and author" do
