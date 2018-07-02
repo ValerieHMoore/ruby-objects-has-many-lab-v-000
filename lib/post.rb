@@ -25,4 +25,11 @@ class Post
     end
   end
   
+  def author_title
+    if author == nil
+      nil
+    else self.author.title
+    end
+  end
+  
 end
