@@ -14,6 +14,10 @@ class Post
 
   def initialize(name)
     @name = name
+    self.save
+  end
+  
+  def initialize(title)
     @title = title
     self.save
   end
