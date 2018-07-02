@@ -22,7 +22,7 @@ class Author
   #       betty.add_post_by_title("My Great Blog Post")
   #       expect(betty.posts.last.title).to eq("My Great Blog Post")
   #       expect(betty.posts.last.author).to eq(betty)
-    posts.title = self
+    posts.title.author = self
   end
   
  end
