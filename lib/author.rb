@@ -6,6 +6,8 @@ class Author
 
   def initialize(name)
     @name = name
+    @title = title
+    @posts = posts
     @@all << self
   end
   
