@@ -34,7 +34,6 @@ class Author
   def Foo.get_count
     @@count
   end
-end
 
 def self.post_count
     @@all.count
