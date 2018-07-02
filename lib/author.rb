@@ -30,7 +30,7 @@ class Author
   def self.post_count
    #calculate the posts of all the authors
    #count all the posts of one author
-   #author
+   #author.posts
   end
   
  end
