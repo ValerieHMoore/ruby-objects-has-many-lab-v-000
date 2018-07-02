@@ -29,7 +29,7 @@ class Author
    #count all the posts of one author
    #author.posts.length
    @@all.each do |author|
-     
+     author.posts
    end
   end
   
