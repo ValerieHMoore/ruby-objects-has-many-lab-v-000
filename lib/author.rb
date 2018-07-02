@@ -1,13 +1,11 @@
 require 'pry'
 
 class Author
-  attr_accessor :name, :posts, :title
+  attr_accessor :name
   @@all = []
 
   def initialize(name)
     @name = name
-    @title = title
-    @posts = posts
     @@all << self
   end
   
