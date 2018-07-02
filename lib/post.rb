@@ -12,15 +12,16 @@ class Post
     self.class.all << self
   end
 
-  def initialize(name)
+  def initialize(name, title)
     @name = name
-    self.save
-  end
-  
-  def initialize(title)
     @title = title
     self.save
   end
+  
+  # def initialize(title)
+  #   @title = title
+  #   self.save
+  # end
   
   def author_name
     if author == nil
