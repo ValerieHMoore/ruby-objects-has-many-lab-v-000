@@ -2,11 +2,11 @@ require 'pry'
 
 class Author
   attr_accessor :name
-  @@count = 0
+  @@all = []
 
   def initialize(name)
     @name = name
-    @@all = []
+    #@@all = []
   end
   
   def add_post(name)
