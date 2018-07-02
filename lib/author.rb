@@ -31,7 +31,7 @@ class Author
    #calculate the posts of all the authors
    #count all the posts of one author
    #author.posts.length
-   @@all.size
+   
   end
   
  end
