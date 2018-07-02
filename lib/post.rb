@@ -3,7 +3,6 @@ require 'pry'
 class Post
   attr_accessor :author, :name, :title
   @@all = []
-  @@count = 0
   
   def self.all
     @@all
@@ -15,7 +14,6 @@ class Post
 
   def initialize(name)
     @name = name
-    @@count += 1
     self.save
   end
   
