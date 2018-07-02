@@ -10,6 +10,7 @@ class Author
   
   def add_post(name)
     @@all << name
+    @@all << title
     name.author = self
   end
  
@@ -22,7 +23,6 @@ class Author
   #       betty.add_post_by_title("My Great Blog Post")
   #       expect(betty.posts.last.title).to eq("My Great Blog Post")
   #       expect(betty.posts.last.author).to eq(betty)
-    @@all << self
     posts.title.author = self
   end
   
