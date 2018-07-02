@@ -12,11 +12,6 @@ class Post
     self.class.all << self
   end
 
-  def initialize(name)
-    @name = name
-    self.save
-  end
-  
   def initialize(title)
     @title = title
     self.save
