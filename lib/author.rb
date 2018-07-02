@@ -16,6 +16,7 @@ class Author
   def posts
     @@all
   end
+  binding.pry
   
   def add_post_by_title(title)
   # it "takes in an argument of a post title, creates a new post with it and associates the post and author" do
