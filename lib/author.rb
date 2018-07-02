@@ -9,9 +9,9 @@ class Author
     @@all << self
   end
   
-  def add_post(name)
-    @@all << name
-    name.author = self
+  def add_post(post)
+    @@all << post
+    post.author = self
   end
  
   def posts
