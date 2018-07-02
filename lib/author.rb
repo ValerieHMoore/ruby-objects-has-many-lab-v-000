@@ -2,10 +2,12 @@ require 'pry'
 
 class Author
   attr_accessor :name, :posts
+  @@count = 0
 
   def initialize(name)
     @name = name
     @@all = []
+    @@count +=1
   end
   
   def add_post(name)
@@ -26,7 +28,7 @@ class Author
   end
   
   def self.post_count
-    @@all.posts.count
+    
   end
   
  end
