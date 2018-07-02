@@ -25,18 +25,9 @@ class Author
    
   end
   
-  class Foo
-  @@count = 0
-  def initialize
-    @@count += 1
-  end
-
-  def Foo.get_count
+  
+def Post.post_count
     @@count
-  end
-
-def self.post_count
-    @@all.count
   end
   
  end
