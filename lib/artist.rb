@@ -22,10 +22,9 @@ class Artist
     @@all << song
     song.artist = self
   end
-  
+  binding.pry
   def song_count
     @@all.size
-    binding.pry
   end
   
  end
