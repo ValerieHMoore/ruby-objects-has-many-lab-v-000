@@ -7,12 +7,12 @@ class Author
   def initialize(name)
     @name = name
     @@all = []
-    @@count += 1
   end
   
   def add_post(name)
     @@all << name
     name.author = self
+    @@count += 1
   end
  
   def posts
