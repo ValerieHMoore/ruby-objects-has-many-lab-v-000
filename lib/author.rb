@@ -23,7 +23,7 @@ class Author
   #       betty.add_post_by_title("My Great Blog Post")
   #       expect(betty.posts.last.title).to eq("My Great Blog Post")
   #       expect(betty.posts.last.author).to eq(betty)
-   Post.new 
+   post = Post.new(title)
   end
   
   def self.post_count
