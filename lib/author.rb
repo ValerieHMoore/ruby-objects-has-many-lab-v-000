@@ -24,7 +24,7 @@ class Author
   #       expect(betty.posts.last.title).to eq("My Great Blog Post")
   #       expect(betty.posts.last.author).to eq(betty)
    post = Post.new(title)
-   
+   add_post(post)
   end
   
   def self.post_count
