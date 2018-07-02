@@ -18,7 +18,11 @@ class Author
   end
   
   def add_post_by_title(title)
-    
+  # it "takes in an argument of a post title, creates a new post with it and associates the post and author" do
+  #       betty.add_post_by_title("My Great Blog Post")
+  #       expect(betty.posts.last.title).to eq("My Great Blog Post")
+  #       expect(betty.posts.last.author).to eq(betty)
+    @@all << posts.author.self
   end
   
  end
