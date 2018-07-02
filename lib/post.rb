@@ -2,10 +2,10 @@ require 'pry'
 
 class Post
   attr_accessor :author, :name, :title
-  @@all = []
+  @@posts = []
   
   def self.all
-    @@all
+    @@posts
   end
 
   def save
