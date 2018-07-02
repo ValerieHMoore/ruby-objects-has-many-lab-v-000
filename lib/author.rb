@@ -28,6 +28,7 @@ class Author
    #calculate the posts of all the authors
    #count all the posts of one author
    #author.posts.length
+   counter = 0
    @@all.each do |author|
      author.posts.length
    end
