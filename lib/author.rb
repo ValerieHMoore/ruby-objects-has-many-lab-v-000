@@ -31,7 +31,9 @@ class Author
    counter = 0
    @@all.each do |author|
      author.posts.length
+
    end
+   counter
   end
   
  end
