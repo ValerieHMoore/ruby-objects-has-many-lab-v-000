@@ -14,7 +14,7 @@ class Post
 
   def initialize(name)
     @name = name
-    #@title = title
+    @title = title
     self.save
   end
   
